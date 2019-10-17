@@ -1,0 +1,48 @@
+{
+	"name": "gitbook-plugin-statistics",
+	"version": "1.0.0",
+	"description": "Gitbook 数据统计插件",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xzghua/gitbook-plugin-statistics.git"
+	},
+	"keywords": ["gitbook", "plugin", "baidu", "cnzz", "statistics"],
+	"author": "xzghua",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/xzghua/gitbook-plugin-statistics/issues"
+	},
+	"homepage": "https://github.com/xzghua/gitbook-plugin-statistics#readme",
+	"engines": {
+    "gitbook": "*"
+  },
+	"gitbook": {
+		"properties": {
+
+			"bd_token": {
+				"description": "百度统计的token",
+				"required": false,
+				"type": "string"
+			},
+			"bd_url": {
+				"description": "百度统计js地址",
+				"default":"https://hm.baidu.com/hm.js",
+				"required": false,
+				"type": "string"
+			},
+			"cnzz_id": {
+				"description": "cnzz统计参数里的id",
+				"required": false,
+				"type": "int"
+			},
+			"cnzz_url": {
+				"description": "cnzz统计js地址",
+				"default":"https://s95.cnzz.com/z_stat.php",
+				"required": false,
+				"type": "string"
+			}
+
+		}
+	}
+}
