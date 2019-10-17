@@ -5,10 +5,12 @@
 
 1. 如果你添加了百度的参数(token),那么将会用百度统计
 2. 如果你添加了cnzz的参数(cnzz_id),那么将会用cnzz统计
-3. 如果你两者都添加了,那么两个统计就都会用到
+3. 如果你添加了google分析的参数(google_id),那么将会用谷歌分析
+3. 如果你三者都添加了,那么三个统计就都会用到
 
 ## Usage
-```
+
+```json
 "plugins": [
         "statistics"
     ],
@@ -16,6 +18,7 @@
         "statistics": {
               "bd_token": "百度token",
               "cnzz_id": xxxxxxx
+              "google_id": "google analytics 追踪ID"
             }
     }
 ```

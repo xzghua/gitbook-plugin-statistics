@@ -1,6 +1,6 @@
 {
 	"name": "gitbook-plugin-statistics",
-	"version": "1.0.0",
+	"version": "v1.0.21",
 	"description": "Gitbook 数据统计插件",
 	"main": "index.js",
 	"repository": {
@@ -41,8 +41,18 @@
 				"default":"https://s95.cnzz.com/z_stat.php",
 				"required": false,
 				"type": "string"
+			},
+			"google_url": {
+				"description": "google分析js地址",
+				"default":"https://www.googletagmanager.com/gtag/js",
+				"required": false,
+				"type": "string"
+			},
+			"google_id": {
+				"description": "google分析跟踪ID",
+				"required": false,
+				"type": "string"
 			}
-
 		}
 	}
 }
