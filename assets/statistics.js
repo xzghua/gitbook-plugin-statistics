@@ -29,7 +29,7 @@ require(["gitbook", 'jQuery'], function(gitbook, $) {
             // $('body').append(res);
         };
 
-        if (googleId !== "") {
+        if (googleId !== 0) {
             const res = "    <script async src='https://www.googletagmanager.com/gtag/js?id="+googleId+"'></script>\n" +
                 "        <script>\n" +
                 "        window.dataLayer = window.dataLayer || [];\n" +
