@@ -1,5 +1,8 @@
 # Gitbook 数据统计插件
 
+[![npm:download](https://img.shields.io/npm/dt/gitbook-plugin-statistics)](https://www.npmjs.com/package/gitbook-plugin-statistics)
+
+
 习惯用cnzz的数据统计,但是目前没找到..  一想有人也用百度的.  那么就模仿一下,把两个都加一下试试
 
 
